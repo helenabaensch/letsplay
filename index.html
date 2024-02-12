@@ -1,0 +1,220 @@
+
+<html>
+
+<head>
+        
+        <title>come on, let's play</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+    
+<body>
+    
+    <div id="spielfeld">
+        <div id="intro">Hi and welcome to this little playground. Before you get lost in asking yourself what to do here, I will give you a brief introduction to this website. Its overall purpose is to archive a few lovely minigames. At the same time it is dedicated to my passion for playing and I would love to share this with you. Just walk along the path and try to find the mini games i hid in this game board. Have fun playing!</div>
+        <p class="circle" id="hori1"></p>
+        <div class="circle" id="hori1"></div>
+        <div class="circle" id="hori1"></div>
+         <div class="circle" id="verti2" onclick="myFunction('#panelfour')"></div>
+         <div class="circle" id="verti2"></div>
+        <div class="circle" id="verti2"></div>
+         <div class="circle" id="hori3"></div>
+        <div class="circle" id="hori3"></div>
+       <div class="circle" id="hori3"></div>
+        <p class="circle" id="hori3" onclick="myFunction('#paneltwo')"></p>
+           <div class="circle" id="verti4"></div>
+       <div class="circle" id="verti4"></div>
+        <div class="circle" id="verti4"></div>
+       <div class="circle" id="hori5"></div>
+       <div class="circle" id="hori5" onclick="myFunction('#panelfour')"></div>
+       <div class="circle" id="hori5"></div>
+       <div class="circle" id="hori5"></div>
+            <div class="circle" id="hori6"></div>
+            <div class="circle" id="hori6"></div>
+            <div class="circle" id="hori6"></div>
+        <div class="circle" id="hori7" onclick="myFunction('#panel')"></div>
+        <div class="circle" id="hori7"></div>
+        <div class="circle" id="hori7"></div>
+          <div class="circle" id="verti8"></div>
+          <div class="circle" id="verti8"></div>
+          <div class="circle" id="verti8"></div>
+        <div class="circle" id="hori9" onclick="myFunction('#panelfour')"></div>
+        <div class="circle" id="hori9"></div>
+        <div class="circle" id="hori9"></div>
+        <div class="circle" id="hori9"></div>
+          <div class="circle" id="verti10"></div>
+          <div class="circle" id="verti10" onclick="myFunction('#panelthree')"></div>
+          <div class="circle" id="verti10"></div>
+        <div class="circle" id="hori11"></div>
+        <div class="circle" id="hori11"></div>
+        <div class="circle" id="hori11"></div>
+        <div class="circle" id="hori11" onclick="myFunction('#panelfour')"></div>
+          <div class="circle" id="verti12"></div>
+          <div class="circle" id="verti12"></div>
+          <div class="circle" id="verti12" onclick="myFunction('#panelfour')"></div>
+        
+        <div class="red" id="oben"></div>
+        <div class="red" id="oben"></div>
+        <div class="red" id="unten"></div>
+        <div class="red" id="unten"></div>
+        
+        <div class="grun" id="o"></div>
+        <div class="grun" id="o"></div>
+        <div class="grun" id="u"></div>
+        <div class="grun" id="u"></div>
+        
+        <div class="schwarz" id="ob"></div>
+        <div class="schwarz" id="ob"></div>
+        <div class="schwarz" id="un"></div>
+        <div class="schwarz" id="un"></div>
+      
+        <div class="gelb" id="obe"></div>
+        <div class="gelb" id="obe"></div>
+        <div class="gelb" id="unt"></div>
+        <div class="gelb" id="unte"></div>
+       
+        <hr id="p">
+<hr id="h">
+<hr id="i">
+<hr id="j">
+<hr id="k">
+<hr id="l">
+<hr id="m">
+<hr id="n">
+<hr id="zu">
+<hr id="t">
+<hr id="a">
+<hr id="c">
+        <h1 id="Come">come</h1>
+        <h1 id="On">on</h1>
+        <h1 id="Lets">let's</h1>
+        <h1 id="Play">play</h1>
+        
+    
+        
+        
+</div>
+    
+    
+    
+
+
+
+<div id='panel' class='panels'>
+    <div id="rahmen"><div class='close'>exit here</div>
+  <p>Welcome to this minigame!</p>
+  <p>I like to call it </p>
+  <span>the Category Game</span>
+  <p>and here is how it works: 
+ I will tell you a category and ten different things that fit in there. Your task is to assign the right numbers of a scale from 1 to 10 to them. See if you guessed correctly by clicking on the different options. the category is:</p>
+    <span>Leisure Activities</span>
+    <br><br>
+   <button id="button4" onclick="showNumber('button4','4')">grocery shopping</button>
+    <button id="button7" onclick="showNumber('button7','7')">cafe hopping</button>
+    <button id="button9" onclick="showNumber('button9','9')">sektfr&uuml;hst&uuml;ck</button>
+    <button id="button5" onclick="showNumber('button5','5')">instagram</button>
+    <button id="button8" onclick="showNumber('button8','8')">hfg party</button>
+    <button id="button1" onclick="showNumber('button1','1')">call baf&ouml;gamt</button>
+    <button id="button3" onclick="showNumber('button3','3')">play monopoly</button>
+    <button id="button6" onclick="showNumber('button6','6')">eat pasta</button>
+    <button id="button10" onclick="showNumber('button10','10')">sex</button>
+    <button id="button2" onclick="showNumber('button2','2')">clean windows</button>
+
+<p>Go play this little game with your friends and have fun finding the next game.</p>
+       
+</div>
+    </div>
+
+
+<div id='paneltwo' class='panels'>
+    <div id="rahmen"><div class='close'>exit here</div>
+  <p>Hello, I am glad you found your way to this lovely minigame.</p>
+    <span>Word Chains</span>
+    <p>As simple as it can be, we create an endless word chain together. You simply continue the existing system of aligning words by typing in your contributions. Here we go:</p>
+    <p><input type="text" id="inputText" placeholder="type here">
+<button onclick="speichern()">save</button></p>
+    <p>summertime</p>
+    <p>sommelier</p>
+    <p>bartender</p>
+    <p>waiter</p>
+    <p>waiting line</p>
+    <p>traffic jam</p>
+    <ul id="antworten"></ul>
+    
+    </div>
+</div>
+    
+    <div id="panelthree" class="panels">
+        <div id="rahmen"><div class='close'>exit here</div>
+        <p>Hello you, good to see you. Let's play </p>
+        <span>Super Smart Blockhead</span>
+        <p>It works similar to the classic "Stadt-Land-Fluss", just funkier and faster. I tell you the letter and a category, you type in your answer as fast as possible. Have fun!</p>
+       <p><span id="letter">K</span>&nbsp;&nbsp;&nbsp;&nbsp;break-up reason<input type="text" ></p>
+        <p><span class="letter">U</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;something healthy<input type="text" ></p>
+        <p><span class="letter">D</span>&nbsp;&nbsp;&nbsp;&nbsp;cheaper than 1€<input type="text" ></p>
+         <p><span class="letter">R</span>&nbsp;&nbsp;&nbsp;&nbsp;stereotypically german<input type="text" ></p>
+        <p><span class="letter">I</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;has a lid<input type="text" ></p>
+        <p><span class="letter">M</span>&nbsp;&nbsp;&nbsp;&nbsp;partymotto<input type="text" ></p>
+        </div>
+        
+        
+        
+    </div>
+    
+    <div id="panelfour" class="panels">
+    <div id="rahmen"><div class='close'>exit here</div>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <span>you lost</span>
+        <br><br>
+        <br><br>
+        <br><br>
+        <p>My bad! You stepped on the wrong field. But you are lucky, I will give you another chance.</p>
+        </div></div>
+
+<script>
+    
+function myFunction(card) {
+    $(".panels").hide();
+    $(card).show();
+}
+    
+    $(".close").click(function(){
+        $(".panels").hide();
+    });
+    
+function showNumber(id, value) {
+    $('#' + id).html(value);
+}  
+    
+function speichern() {
+    var text = document.getElementById("inputText").value;
+
+    // Neues Listenelement erstellen
+    var li = document.createElement("li");
+    li.textContent = text;
+
+    // Listenelement zur Liste hinzufügen
+    document.getElementById("antworten").appendChild(li);
+
+    // Eingabefeld leeren
+    document.getElementById("inputText").value = "";
+}
+</script>
+    
+
+    
+    </body>
+                    
+                    </html>
+    

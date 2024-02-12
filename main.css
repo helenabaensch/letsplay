@@ -1,0 +1,522 @@
+
+
+#spielfeld {
+        position: fixed;
+    width: 98vw;
+    height: 98vh;
+    background-color: #1DA21D;
+    border-style: solid;
+    border-color: black;
+     
+    
+}
+
+body {
+   
+     cursor: url('spielila.png'), auto;
+    
+}
+
+#intro {
+    
+    position: absolute;
+    top: 560px;
+    left: 880px;
+    width: 300px;
+    font-size: 12px;
+    font-family: monospace;
+    color: #1DA21D
+    
+}
+#intro:hover {
+   color: black
+}
+
+.panels {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    background-color: white;
+    display: none;
+    width: 360px;
+    height: 580px;
+    border-radius: 10%;
+    padding: 60px;
+    font-family: monospace;
+    box-shadow: 0 0 45px black, 0 0 1px black;
+    text-align: center;
+    color: #AC94F4
+}
+
+#rahmen {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10%;
+    width: 340px;
+    height: 560px;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    padding: 40px
+     
+    
+    
+}
+span {
+    font-family: Pinyon Script;
+    font-size: 40px;
+    text-align: center;
+    color: #AC94F4;
+    text-shadow: 1px 1px 10px white
+    
+}
+
+
+
+h1 {
+    font-family: Pinyon Script;
+        font-size: 80px;
+    color: 
+        
+}
+
+#come {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    padding: 20px;
+    animation-name: come;
+    animation-duration: 15s;
+     animation-iteration-count: infinite
+}
+
+@keyframes come {
+    0%   {left:320px; top:80px;}
+  25%  {left:940px; top:80px;}
+  
+  50%  {left: 940px; top:500px;}
+    75%  {left:320px; top:500px;}
+  100% {left:320px; top:80px;}
+}
+#on {
+    position: absolute;
+    top: 80px;
+    left: 940px;
+    padding: 20px;
+    animation-name: on;
+    animation-duration: 15s;
+     animation-iteration-count: infinite
+}
+
+@keyframes on {
+    
+  0%  {left:940px; top:80px;}
+ 25%  {left: 940px; top:500px;}
+50%  {left:320px; top:500px;}
+75% {left:320px; top:80px;}
+100%  {left:940px; top:80px;}
+}
+
+#Lets {
+    position: absolute;
+    top: 500px;
+    left: 320px;
+    padding: 20px;
+    animation-name: lets;
+    animation-duration: 15s;
+     animation-iteration-count: infinite
+}
+
+@keyframes lets {
+    
+  
+0%  {left: 320px; top:500px;}
+25%  {left:320px; top:80px;}
+50% {left:940px; top:80px;}
+75%  {left:940px; top:500px;}
+    100%  {left:320px; top:500px;}
+}
+
+#Play {
+    position: absolute;
+    top: 500px;
+    left: 940px;
+    padding: 50px;
+    animation-name: play;
+    animation-duration: 15s;
+     animation-iteration-count: infinite
+}
+
+@keyframes play {
+    
+
+0%  {left:940px; top:500px;}
+25% {left:320px; top:500px;}
+50%  {left:320px; top:80px;}
+    75%  {left:940px; top:80px;}
+    100%  {left: 940px; top:500px;}
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 12px;
+  
+}
+
+#hori1 {
+    display: inline-block;
+    position: relative;
+    left: 580px;
+    top: 55px
+}
+
+#verti2 {
+     position: relative;
+    left: 580px;
+        top: 40px
+    
+}
+
+#hori3 {
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    bottom: 46px
+}
+
+#verti4 {
+    position: relative;
+    left: 120px;
+    bottom: 140px
+}
+
+#hori5 {
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    bottom: 228px
+}
+
+#hori6 {
+     position: relative;
+    left: 580px;
+    bottom: 320px
+}
+
+#hori7 {
+     display: inline-block;
+    position: relative;
+    left: 580px;
+    bottom: 330px
+    
+}
+
+#verti8 {
+    position: relative;
+    left: 765px;
+    bottom: 650px
+    
+}
+
+#hori9 {
+    display: inline-block;
+    position: relative;
+    left: 855px;
+    bottom: 890px
+    
+}
+
+#verti10 {
+      position: relative;
+    left: 1225px;
+    bottom: 1134px
+}
+
+#hori11 {
+    display: inline-block;
+    position: relative;
+    left: 857px;
+    bottom: 1374px
+    
+}
+
+#verti12 {
+       position: relative;
+    left: 765px;
+    bottom: 1618px
+}
+
+.red {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  #AC94F4;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 12px;
+    
+}
+
+#oben {
+    display: inline-block;
+    position: relative;
+    bottom: 1960px;
+    left: 40px
+}
+
+#unten {
+    display: inline-block;
+    position: relative;
+    bottom: 1870px;
+    right: 145px
+}
+
+.grun {
+       width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  #AC94F4;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 12px;
+}
+
+#o {
+    display: inline-block;
+    position: relative;
+    bottom: 1960px;
+    left: 820px
+}
+
+#u {
+    display: inline-block;
+    position: relative;
+    bottom: 1870px;
+    left: 635px
+}
+
+.schwarz {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  #AC94F4;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 12px;
+}
+
+#ob {
+    
+    display: inline-block;
+    position: relative;
+    bottom: 1420px;
+    right: 697px
+}
+
+#un {
+    display: inline-block;
+    position: relative;
+    bottom: 1320px;
+    right: 881px
+}
+
+.gelb {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #AC94F4;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 12px;
+}
+
+#obe {
+       display: inline-block;
+    position: relative;
+    bottom: 1420px;
+    left: 82px
+}
+
+#unt {
+     display: inline-block;
+    position: relative;
+    bottom: 1320px;
+    right: 100px
+}
+
+#unte {
+    display: inline-block;
+    position: absolute;
+    top: 670px;
+    left: 1280px
+}
+
+hr {
+    background-color: black;
+    border: none;
+    z-index: -1
+}
+
+#p {
+    width: 12px;
+    height: 200px;
+    position: absolute;
+    top: 110px;
+    left: 803px
+    
+}
+
+#h {
+   width: 12px;
+    height: 200px;
+    position: absolute;
+    top: 110px;
+    left: 618px 
+}
+
+#i{
+     width: 12px;
+    height: 200px;
+    position: absolute;
+    top: 490px;
+    left: 618px
+
+}
+
+#j {
+     width: 12px;
+    height: 200px;
+    position: absolute;
+    top: 490px;
+    left: 803px
+}
+
+#k{
+     width: 12px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 1263px
+}
+
+#l {
+     width: 12px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 158px
+}
+
+#m {
+     width: 470px;
+    height: 12px;
+    position: absolute;
+    top: 315px;
+    left: 788px
+}
+
+#n {
+     width: 470px;
+    height: 12px;
+    position: absolute;
+    top: 315px;
+    left: 158px
+}
+
+#zu {
+    
+     width: 470px;
+    height: 12px;
+    position: absolute;
+    top: 465px;
+    left: 158px
+}
+
+#t {
+     width: 470px;
+    height: 12px;
+    position: absolute;
+    top: 465px;
+    left: 788px
+}
+
+#a {
+    width: 200px;
+    height: 12px;
+    position: absolute;
+    top: 86px;
+    left: 630px
+}
+
+#c {
+    width: 200px;
+    height: 12px;
+    position: absolute;
+    top: 696px;
+    left: 630px
+}
+
+button {
+    height: 35px;
+    width: 140px;
+    margin: 6px;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white
+}
+
+input {
+    height: 20px;
+    width: 90px;
+    margin: 6px;
+    background-color: transparent;
+    color: black;
+    
+    border-color: transparent;
+    
+}
+
+input:hover {
+    background-color: white
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+
+
+.close {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    font-size: 8px;
+    
+    
+}
+
+.close:hover, .close:active {
+    font-weight: 600;
+    color: white
+}
+
+#panelthree {
+    text-align: left
+}
+
+#inputText {
+    
+}
